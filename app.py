@@ -4,8 +4,8 @@ from transformers import pipeline, AutoModelForSequenceClassification, AutoToken
 # List of pre-trained models for users to select
 pretrained_models = {
     "Sentiment Analysis": "text-sentiment-analysis",
-    "Text Classification (roberta-base)": "text-classification/roberta-base",
-    "Text Classification (distilbert-base)": "text-classification/distilbert-base-cased",
+    "Text Classification (roberta-xsmall)": "microsoft/deberta-xsmall",
+    "Text Classification (roberta-large)": "microsoft/deberta-large",
     "Custom Model": "custom"
 }
 
